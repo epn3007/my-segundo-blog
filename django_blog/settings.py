@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blog',
         'USER': 'epn3007',
-        'PASSWORD': 'cartago',
+        'PASSWORD': 'sertec123',
         'HOST': 'epn3007.mysql.pythonanywhere-services.com',
         'PORT': '3306',    
     }
