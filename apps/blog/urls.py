@@ -8,6 +8,6 @@ urlpatterns=[
 	path('tecnologia/',tecnologia, name='tecnologia'),
 	path('tutoriales/',tutoriales, name='tutoriales'),
 	path('videojuegos/',videojuegos, name='videojuegos'),
-	path('<slug:slug>/',detallePost, name ='detalle_post'),
-	#path('<slug>/',detallePost, name ='detalle_post'),
+	#path('<slug:slug>/',detallePost, name ='detalle_post'),
+	path('<slug>/',detallePost, name ='detalle_post'),
 ]
